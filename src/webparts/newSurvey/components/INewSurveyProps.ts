@@ -1,7 +1,7 @@
+import { WebPartContext } from '@microsoft/sp-webpart-base';
 export interface INewSurveyProps {
   description: string;
-  isDarkTheme: boolean;
-  environmentMessage: string;
-  hasTeamsContext: boolean;
   userDisplayName: string;
+  userDisplayEmail: string;
+  context: WebPartContext;
 }

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "new-survey-client-side-solution",
+    "id": "e0b0a196-d94d-47e6-b752-9a6095a1be88",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "NewSurvey description"
+      },
+      "longDescription": {
+        "default": "NewSurvey description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "new-survey Feature",
+        "description": "The feature that activates elements of the new-survey solution.",
+        "id": "4c368059-845e-41d8-aeb0-7cb55dfba961",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/new-survey.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "new-survey-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/newSurvey/NewSurveyWebPart.js",
+          "manifest": "./src/webparts/newSurvey/NewSurveyWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NewSurveyWebPartStrings": "lib/webparts/newSurvey/loc/{locale}.js"
+  }
+}

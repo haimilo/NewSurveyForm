@@ -1,74 +1,30 @@
-# new-survey
+SharePoint Framework (SPFx) Practical Test
+Question: 	Create a Survey using SPFx.
+Requirements
+1.	Retrieve and display the following information on screen. [[ 3 points ]]
+a.	Current User Profile.
+i.	Full Name
+ii.	Email
+b.	Current Date/Time.
+c.	If the current logged-in user has not yet answered the survey, display a “Start Survey” button. When current logged-in user clicks the button, start the survey. After user completed the survey, store the answer into SharePoint List.
+d.	If the current logged-in user has answered the survey, display a “View My Response” button. When the current logged-in user clicks the button, displayed the survey responded by the current logged-in user.
+2.	Please find the survey questions below. Display one question only in one page. [[ 12 points ]]
 
-## Summary
+Question 1 --- This is Question 1. if you select Answer A, your next question will be Question 2. If you select Answer B, your next question will be Question 3.
+Answer for Question 1, displayed as buttons
+(A)	Answer A, Go to Question 2
+(B)	Answer B, Go to Question 3
 
-Short summary on functionality and used technologies.
+Question 2 --- What are your favorite programming languages? Please select 2.
+Answer for Question 2, displayed as multi-select checkboxes
+(A)	C#
+(B)	Java
+(C)	PHP
+(D)	Python
+(E)	R
 
-[picture of the solution in action, if possible]
+Question 3 --- When is your birthday?
+Answer for Question 3, displayed as date control, after the user selected his/her birthday, display his/her age, for e.g., You are X years and Y months old.
 
-## Used SharePoint Framework Version
-
-![version](https://img.shields.io/badge/version-1.16.1-green.svg)
-
-## Applies to
-
-- [SharePoint Framework](https://aka.ms/spfx)
-- [Microsoft 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
-
-> Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
-
-## Prerequisites
-
-> Any special pre-requisites?
-
-## Solution
-
-| Solution    | Author(s)                                               |
-| ----------- | ------------------------------------------------------- |
-| folder name | Author details (name, company, twitter alias with link) |
-
-## Version history
-
-| Version | Date             | Comments        |
-| ------- | ---------------- | --------------- |
-| 1.1     | March 10, 2021   | Update comment  |
-| 1.0     | January 29, 2021 | Initial release |
-
-## Disclaimer
-
-**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
-
----
-
-## Minimal Path to Awesome
-
-- Clone this repository
-- Ensure that you are at the solution folder
-- in the command-line run:
-  - **npm install**
-  - **gulp serve**
-
-> Include any additional steps as needed.
-
-## Features
-
-Description of the extension that expands upon high-level summary above.
-
-This extension illustrates the following concepts:
-
-- topic 1
-- topic 2
-- topic 3
-
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
-
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
-
-## References
-
-- [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
-- [Building for Microsoft teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/build-for-teams-overview)
-- [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
-- [Publish SharePoint Framework applications to the Marketplace](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/publish-to-marketplace-overview)
-- [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp) - Guidance, tooling, samples and open-source controls for your Microsoft 365 development
-# NewSurveyForm
+Question 4 --- Please rate this survey.
+Answer for Question 4, displayed as star ratings, max 5 stars.
